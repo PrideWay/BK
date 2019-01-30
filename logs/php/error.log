@@ -1,0 +1,182 @@
+[13-Jan-2019 19:07:21 UTC] PHP Fatal error:  Cannot redeclare init() (previously declared in /app/public/wp-content/themes/beautykeratin/functions.php:37) in /app/public/wp-content/themes/beautykeratin/functions.php on line 37
+[13-Jan-2019 19:08:22 UTC] PHP Fatal error:  Cannot redeclare get_version() (previously declared in /app/public/wp-content/themes/beautykeratin/functions.php:10) in /app/public/wp-content/themes/beautykeratin/functions.php on line 11
+[13-Jan-2019 19:13:52 UTC] PHP Fatal error:  Cannot redeclare init() (previously declared in /app/public/wp-content/themes/beautykeratin/functions.php:37) in /app/public/wp-content/themes/beautykeratin/functions.php on line 37
+[13-Jan-2019 19:14:55 UTC] PHP Fatal error:  Cannot redeclare get_version() (previously declared in /app/public/wp-content/themes/beautykeratin/functions.php:10) in /app/public/wp-content/themes/beautykeratin/functions.php on line 11
+[13-Jan-2019 19:15:50 UTC] PHP Fatal error:  Cannot redeclare theme_setup() (previously declared in /app/public/wp-content/themes/beautykeratin/functions.php:26) in /app/public/wp-content/themes/beautykeratin/functions.php on line 32
+[13-Jan-2019 19:16:12 UTC] PHP Fatal error:  Cannot redeclare init() (previously declared in /app/public/wp-content/themes/beautykeratin/functions.php:37) in /app/public/wp-content/themes/beautykeratin/functions.php on line 37
+[13-Jan-2019 19:16:51 UTC] PHP Fatal error:  Cannot redeclare theme_setup() (previously declared in /app/public/wp-content/themes/beautykeratin/functions.php:26) in /app/public/wp-content/themes/beautykeratin/functions.php on line 32
+[14-Jan-2019 07:50:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_top() in /app/public/wp-content/themes/beautykeratin/index.php:3
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/beautykeratin/index.php on line 3
+[14-Jan-2019 07:57:10 UTC] PHP Warning:  realpath() expects exactly 1 parameter, 0 given in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 69
+[14-Jan-2019 07:57:10 UTC] PHP Warning:  realpath() expects exactly 1 parameter, 0 given in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 69
+[14-Jan-2019 07:57:10 UTC] PHP Warning:  realpath() expects exactly 1 parameter, 0 given in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 69
+[14-Jan-2019 07:57:10 UTC] PHP Warning:  realpath() expects exactly 1 parameter, 0 given in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 69
+[14-Jan-2019 07:57:10 UTC] PHP Warning:  realpath() expects exactly 1 parameter, 0 given in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 69
+[16-Jan-2019 12:07:44 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:07:44 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:07:44 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:17 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:56 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant uploads - assumed 'uploads' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slider - assumed 'slider' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant slide3 - assumed 'slide3' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Division by zero in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
+[16-Jan-2019 12:10:57 UTC] PHP Warning:  Use of undefined constant png - assumed 'png' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/beautykeratin/main_slider.php on line 12
