@@ -5,7 +5,7 @@
             <div class="sblock">
                 <div class="sone">
                     <div class="wrp">
-                        <div class="img"><img src="template/img/ico/usl1.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri()?>/img/ico/usl1.png" alt=""></div>
                         <div class="text">
                             <h2>Кератиновое выпрямление волос</h2>
                             <div class="twrp">Кератиновое выпрямление волос – это эффективная процедура лечения
@@ -22,7 +22,7 @@
                 </div>
                 <div class="sone">
                     <div class="wrp">
-                        <div class="img"><img src="template/img/ico/usl2.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri()?>/img/ico/usl2.png" alt=""></div>
                         <div class="text">
                             <h2>Ботокс волос</h2>
                             <div class="twrp">Ботокс глубоко восстанавливает волосы изнутри, стимулирует
@@ -38,7 +38,7 @@
                 </div>
                 <div class="sone">
                     <div class="wrp">
-                        <div class="img"><img src="template/img/ico/usl3.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri()?>/img/ico/usl3.png" alt=""></div>
                         <div class="text">
                             <h2>Полировка волос</h2>
                             <div class="twrp">Современная процедура, проводится машинкой, с помощью специальной
@@ -53,7 +53,7 @@
                 </div>
                 <div class="sone">
                     <div class="wrp">
-                        <div class="img"><img src="template/img/ico/usl4.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri()?>/img/ico/usl4.png" alt=""></div>
                         <div class="text">
                             <h2>Реконструкция волос</h2>
                             <div class="twrp">С проблемой сечения волоса сталкивается большинство девушек. При
@@ -70,7 +70,7 @@
                 </div>
                 <div class="sone">
                     <div class="wrp">
-                        <div class="img"><img src="template/img/ico/usl5.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri()?>/img/ico/usl5.png" alt=""></div>
                         <div class="text">
                             <h2>Глубокое питание волос</h2>
                             <div class="twrp">SPA процедура для Ваших волос.<br>

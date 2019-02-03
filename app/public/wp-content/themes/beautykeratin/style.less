@@ -452,23 +452,17 @@ header {
     margin-bottom: 30px;
   }
   .sone {
+    height: auto;
     margin-bottom: 15px;
     position: relative;
     width: 100%;
-    height: auto;
-    .wrp {
-      padding: 0;
-    }
     .img {
       display: none;
     }
     .text {
-      float: none;
-      height: auto;
-      padding: 20px;
-      font-size: 15px;
-      border-radius: 15px;
       background: #dddddd;
+      -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.15);
       box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.15);
       h2 {
         font-family: 'playfair';
@@ -505,22 +499,34 @@ header {
   .sblock {
     .sone {
       &:nth-child(even) {
-        .wrp {
-          padding: 0;
-        }
         .img {
           right: -20px;
           left: auto;
           top: -25px;
         }
         .text {
-          float: none;
-          height: auto;
-          padding: 20px;
-          font-size: 15px;
-          border-radius: 15px;
+          background: #ffcde5;
+        }
+        .btn {
+          a {
+            background: #fff;
+            color: #000;
+          }
         }
       }
+    }
+  }
+  .sblock .sone:nth-child(even),
+  .sone {
+    .wrp {
+      padding: 0;
+    }
+    .text {
+      float: none;
+      height: auto;
+      padding: 20px;
+      font-size: 15px;
+      border-radius: 15px;
     }
   }
 }
@@ -554,21 +560,13 @@ header {
 }
 
 .text {
+  font-size: 20px;
   line-height: 1.2;
   a {
     color: #000;
     text-decoration: underline;
   }
 }
-
-@media (min-width: 649px) {
-
-}
-
-
-
-
-
 
 @media (min-width: 481px) {
   .main_slider {
@@ -586,6 +584,80 @@ header {
   }
 }
 
+@media (min-width: 530px) {
+  .xline {
+    font-size: 39px;
+    span {
+      padding: 0 40px;
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .services {
+    .sone {
+      margin-bottom: 25px;
+      height: 245px;
+      .wrp {
+        padding-left: 140px;
+      }
+      .img {
+        display: block;
+        position: absolute;
+        left: -20px;
+        top: -20px;
+      }
+      .text {
+        padding: 15px 20px 10px 135px;
+        float: right;
+        border-radius: 20px;
+        h2 {
+          font-size: 25px;
+        }
+        .twrp {
+          font-size: 18px;
+          height: 6em;
+          line-height: 1.2;
+        }
+      }
+      .btn {
+        margin-top: 10px;
+        a {
+          width: 165px;
+          height: 30px;
+          padding-top: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+    .sblock {
+      .sone {
+        &:nth-child(even) {
+          .wrp {
+            padding-left: 0;
+            padding-right: 140px;
+          }
+          .img {
+            right: -20px;
+            left: auto;
+            top: -25px;
+          }
+          .text {
+            padding: 15px 125px 10px 30px;
+            float: left;
+          }
+        }
+      }
+    }
+    .sblock .sone:nth-child(even),
+    .sone {
+      .text {
+        height: 225px;
+      }
+    }
+  }
+}
+
 @media (min-width: 769px) {
   .main_slider {
     .slide {
@@ -597,6 +669,55 @@ header {
       }
       .x1024 {
         display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 781px) {
+  .services {
+    .sone {
+      .text {
+        h2 {
+          font-size: 27px;
+        }
+        .twrp {
+          font-size: 18px;
+          height: 7.2em;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 870px) {
+  .services {
+    .sone {
+      .text {
+        padding: 15px 40px 10px 155px;
+        h2 {
+          font-family: 'playfair';
+          font-size: 31px;
+          font-weight: normal;
+          margin-bottom: 12px;
+          text-align: left;
+          line-height: 1.2;
+        }
+        .twrp {
+          font-size: 19px;
+          line-height: 1.2;
+          height: 6em;
+          overflow: hidden;
+        }
+      }
+    }
+    .sblock {
+      .sone {
+        &:nth-child(even) {
+          .text {
+            padding: 15px 155px 10px 40px;
+          }
+        }
       }
     }
   }

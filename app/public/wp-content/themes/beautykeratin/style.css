@@ -389,24 +389,18 @@ header .menu li {
   margin-bottom: 30px;
 }
 .services .sone {
+  height: auto;
   margin-bottom: 15px;
   position: relative;
   width: 100%;
-  height: auto;
-}
-.services .sone .wrp {
-  padding: 0;
 }
 .services .sone .img {
   display: none;
 }
 .services .sone .text {
-  float: none;
-  height: auto;
-  padding: 20px;
-  font-size: 15px;
-  border-radius: 15px;
   background: #dddddd;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.15);
 }
 .services .sone .text h2 {
@@ -439,15 +433,24 @@ header .menu li {
   line-height: 1;
   text-align: center;
 }
-.services .sblock .sone:nth-child(even) .wrp {
-  padding: 0;
-}
 .services .sblock .sone:nth-child(even) .img {
   right: -20px;
   left: auto;
   top: -25px;
 }
 .services .sblock .sone:nth-child(even) .text {
+  background: #ffcde5;
+}
+.services .sblock .sone:nth-child(even) .btn a {
+  background: #fff;
+  color: #000;
+}
+.services .sblock .sone:nth-child(even) .wrp,
+.services .sone .wrp {
+  padding: 0;
+}
+.services .sblock .sone:nth-child(even) .text,
+.services .sone .text {
   float: none;
   height: auto;
   padding: 20px;
@@ -483,6 +486,7 @@ header .menu li {
   left: -205px;
 }
 .text {
+  font-size: 20px;
   line-height: 1.2;
 }
 .text a {
@@ -500,6 +504,68 @@ header .menu li {
     display: none;
   }
 }
+@media (min-width: 530px) {
+  .xline {
+    font-size: 39px;
+  }
+  .xline span {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 650px) {
+  .services .sone {
+    margin-bottom: 25px;
+    height: 245px;
+  }
+  .services .sone .wrp {
+    padding-left: 140px;
+  }
+  .services .sone .img {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+  }
+  .services .sone .text {
+    padding: 15px 20px 10px 135px;
+    float: right;
+    border-radius: 20px;
+  }
+  .services .sone .text h2 {
+    font-size: 25px;
+  }
+  .services .sone .text .twrp {
+    font-size: 18px;
+    height: 6em;
+    line-height: 1.2;
+  }
+  .services .sone .btn {
+    margin-top: 10px;
+  }
+  .services .sone .btn a {
+    width: 165px;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .services .sblock .sone:nth-child(even) .wrp {
+    padding-left: 0;
+    padding-right: 140px;
+  }
+  .services .sblock .sone:nth-child(even) .img {
+    right: -20px;
+    left: auto;
+    top: -25px;
+  }
+  .services .sblock .sone:nth-child(even) .text {
+    padding: 15px 125px 10px 30px;
+    float: left;
+  }
+  .services .sblock .sone:nth-child(even) .text,
+  .services .sone .text {
+    height: 225px;
+  }
+}
 @media (min-width: 769px) {
   .main_slider .slide .x480 {
     display: none;
@@ -509,6 +575,37 @@ header .menu li {
   }
   .main_slider .slide .x1024 {
     display: block;
+  }
+}
+@media (min-width: 781px) {
+  .services .sone .text h2 {
+    font-size: 27px;
+  }
+  .services .sone .text .twrp {
+    font-size: 18px;
+    height: 7.2em;
+  }
+}
+@media (min-width: 870px) {
+  .services .sone .text {
+    padding: 15px 40px 10px 155px;
+  }
+  .services .sone .text h2 {
+    font-family: 'playfair';
+    font-size: 31px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.2;
+  }
+  .services .sone .text .twrp {
+    font-size: 19px;
+    line-height: 1.2;
+    height: 6em;
+    overflow: hidden;
+  }
+  .services .sblock .sone:nth-child(even) .text {
+    padding: 15px 155px 10px 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
