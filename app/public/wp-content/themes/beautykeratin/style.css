@@ -125,6 +125,7 @@ header .hf.top_line .td {
   display: block;
 }
 header .hf.top_line .td.sociaz {
+  width: 100%;
   display: none;
 }
 header .hf.top_line .sociaz .table {
@@ -136,7 +137,6 @@ header .hf.top_line .logo p {
   text-align: center;
 }
 header .hf.top_line .logo .checkin {
-  display: block;
   text-align: center;
 }
 header .hf.top_line .logo .checkin a {
@@ -270,6 +270,12 @@ header .menu li {
 .sociaz .table {
   margin-top: 6px;
 }
+.sociaz .table span {
+  display: inline-block;
+  background: url(img/ico/sprite.png) -146px -55px no-repeat;
+  width: 172px;
+  height: 34px;
+}
 .sociaz .icons a {
   display: inline-block;
   vertical-align: top;
@@ -284,6 +290,9 @@ header .menu li {
   background-position: -219px -16px;
 }
 .sociaz .icons a.soc4 {
+  width: 69px;
+  height: 45px;
+  background-position: -258px -4px;
   margin: 0 0 0 8px;
 }
 .checkin {
@@ -566,6 +575,57 @@ header .menu li {
     height: 225px;
   }
 }
+@media (min-width: 730px) {
+  header .hf.top_line .tbl {
+    display: table-cell;
+    padding-top: unset;
+    position: unset;
+    width: unset;
+    border-collapse: unset;
+  }
+  header .hf.top_line .sociaz .icons {
+    margin-top: 10px;
+  }
+  header .hf.top_line .td {
+    display: table-cell;
+    width: 33%;
+  }
+  header .hf.top_line .td.sociaz {
+    display: table-cell;
+  }
+  header .hf.top_line .logo p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  header .hf.top_line .logo .checkin {
+    display: none;
+    text-align: right;
+  }
+  header .hf.top_line .logo a img {
+    width: 326px;
+  }
+  header .logo p {
+    font-size: 18px;
+  }
+  .hf.top_line {
+    /*    .td {
+      width: 33%;
+    }*/
+  }
+  .hf.top_line .sociaz .icons {
+    font-size: 0;
+    white-space: nowrap;
+  }
+  .checkin {
+    text-align: right;
+  }
+  .tbl {
+    display: table;
+    /*    .td {
+      display: table-cell;
+    }*/
+  }
+}
 @media (min-width: 769px) {
   .main_slider .slide .x480 {
     display: none;
@@ -584,6 +644,28 @@ header .menu li {
   .services .sone .text .twrp {
     font-size: 18px;
     height: 7.2em;
+  }
+}
+@media (min-width: 850px) {
+  .iwrp {
+    padding: 0 10px;
+  }
+  header .hf.top_line .iwrp {
+    padding: 0 10px;
+  }
+  header .hf.top_line .sociaz .table {
+    display: block;
+  }
+  header .hf.top_line .logo a {
+    margin-top: 25px;
+  }
+  header .logo p {
+    display: none;
+  }
+  .hf.top_line .logo {
+    /*      a {
+        margin-top: 25px;
+      }*/
   }
 }
 @media (min-width: 870px) {
